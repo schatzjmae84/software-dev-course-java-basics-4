@@ -35,8 +35,10 @@ public class StudentManager {
         // Prompt the user to enter a new student name (using scanner and I/O methods learned previously,
         // refer to mainMenu() for an example)
         // Add the student to the list
+        System.out.print("Please, enter the new student's name: ");
+        String newStudent  = scanner.nextLine();
 
-        mainMenu();
+        mainMenu("1. Add student")
     }
 
     public void removeStudent() {
